@@ -1,9 +1,9 @@
-# 🌾 Flooding & Agricultural Yield Impact  
+#  Flooding & Agricultural Yield Impact  
 ### **Group 8 – Phase 1: Data Science Project**
 
 ---
 
-## 📘 1. Dataset Sources
+##  1. Dataset Sources
 
 ### **1. FAO Crop Data (CSV)**
 - **Source:** Food and Agriculture Organization (FAO)  
@@ -17,7 +17,7 @@
 
 ---
 
-## 🧹 2. Data Cleaning Decisions
+##  2. Data Cleaning Decisions
 
 | Step | Description | Purpose |
 |------|--------------|----------|
@@ -29,7 +29,7 @@
 
 ---
 
-## 🔄 3. Data Transformations
+##  3. Data Transformations
 
 | Transformation | Description | Output |
 |----------------|--------------|---------|
@@ -39,7 +39,7 @@
 
 ---
 
-## 📊 4. Output Summary
+##  4. Output Summary
 
 - **Final Dataset:** `Cleaned_Flood_Crop_Data.csv`  
 - **Records:** 1,741 rows × 15 columns  
@@ -54,7 +54,7 @@ Most data points cluster near zero yield loss, indicating that flood damage alon
 
 ---
 
-## 🧠 5. Summary
+##  5. Summary
 
 - Both datasets were successfully imported, cleaned, and merged using R.  
 - Missing yield values were interpolated, and flood data was aggregated for consistency.  
@@ -63,7 +63,7 @@ Most data points cluster near zero yield loss, indicating that flood damage alon
 
 ---
 
-## 🧑‍💻 6. Technical Details
+##  6. Technical Details
 
 **Tools Used:**  
 - RStudio (R version 4.x)  
