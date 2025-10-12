@@ -1,6 +1,6 @@
 # ===============================
 # 📘 PHASE 1 – Data Science Project
-# Group 8: Flooding & Agricultural Yield Impact
+# Group 8:Flooding & Agricultural Yield Impact
 # ===============================
 
 # --- STEP 1: Load Required Libraries ---
@@ -91,3 +91,4 @@ ggplot(merged_data, aes(x = Avg_Damage_USD, y = Yield_Loss_Percent)) +
 write_csv(merged_data, "F:/6th Sem/IDS/Cleaned_Flood_Crop_Data.csv")
 
 cat("\n✅ Cleaned and merged dataset saved at: F:/6th Sem/IDS/Cleaned_Flood_Crop_Data.csv\n")
+
