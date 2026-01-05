@@ -122,3 +122,4 @@ ggplot(avg_loss_area, aes(x = reorder(Area, -Average_Yield_Loss), y = Average_Yi
 # --- STEP 8: Save Aggregated Results ---
 write_csv(avg_loss_area, "F:/6th Sem/IDS/Average_Yield_Loss_by_Area.csv")
 cat("\n✅ Aggregated yield loss by area saved at: F:/6th Sem/IDS/Average_Yield_Loss_by_Area.csv\n")
+
